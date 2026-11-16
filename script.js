@@ -1,12 +1,4 @@
-// Interactive Greeting Feature
-const greetBtn = document.getElementById("greetBtn");
-const greetingMsg = document.getElementById("greetingMsg");
 
-if (greetBtn) {
-    greetBtn.addEventListener("click", function() {
-        greetingMsg.textContent = "👋 Thanks for stopping by! Hope you have a wonderful day ahead.";
-    });
-}
 
 // Dark Mode Toggle Feature
 const themeToggle = document.getElementById("themeToggle");
